@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Setează repo-ul local
+git init
+git add .
+git commit -m "Initial commit of YR Coin blockchain code"
+
+# Adaugă remote
+git remote add origin https://github.com/Genix2100/YR-COIN.git
+
+# Publică pe GitHub
+git push -u origin master
